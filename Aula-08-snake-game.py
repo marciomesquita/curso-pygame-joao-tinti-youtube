@@ -28,7 +28,7 @@ x_maca = randint(40, 600)
 y_maca = randint(50, 430)
 
 pontos = 0
-# vc pode ver as fonte disponíveis usando pygame.font.get_fonts()
+# vc pode ver as fonte disponiveis usando pygame.font.get_fonts()
 fonte = pygame.font.SysFont('arial', 40, bold = True, italic = True)
 
 tela = pygame.display.set_mode((largura, altura))
