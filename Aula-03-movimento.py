@@ -6,7 +6,7 @@ pygame.init()
 
 largura = 640
 altura = 480
-x = 0
+x = largura / 2
 y = 0
 
 tela = pygame.display.set_mode((largura, altura))
