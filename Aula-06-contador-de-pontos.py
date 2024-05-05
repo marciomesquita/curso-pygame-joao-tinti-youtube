@@ -5,14 +5,6 @@ from random import randint
 
 pygame.init()
 
-#volume varia de 0 a 1
-pygame.mixer.music.set_volume(0.2)
-musica_ambiente = pygame.mixer.music.load('assets/BoxCat Games - CPU Talk.mp3')
-pygame.mixer.music.play(-1)
-
-som_colisao = pygame.mixer.Sound('assets/smw_coin.wav')
-som_colisao.set_volume(1)
-
 largura = 640
 altura = 480
 x = int(largura / 2)
@@ -55,7 +47,6 @@ while True:
         x_azul = randint(40, 600)
         y_azul = randint(50, 430)
         pontos += 1
-        som_colisao.play()
     
     tela.blit(texto_formatado, (450,40))
 
